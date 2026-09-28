@@ -1,0 +1,8 @@
+payment_method,num_transactions,revenue
+UPI,3584,33564431.05
+Credit Card,1829,19006244.87
+Debit Card,1616,13501200.02
+Cash on Delivery,1485,13431462.04
+Net Banking,1055,11346453.93
+Wallet,724,7298553.04
+Unknown,50,403469.31

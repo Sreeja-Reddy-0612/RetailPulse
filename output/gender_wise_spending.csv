@@ -1,0 +1,5 @@
+customer_gender,total_spent,num_transactions,avg_order_value
+Male,48624718.69,4969,9785.61
+Female,45927667.1,4915,9344.39
+Other,3639968.63,407,8943.41
+Unknown,359459.84,52,6912.69

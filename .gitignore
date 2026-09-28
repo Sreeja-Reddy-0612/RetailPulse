@@ -12,14 +12,17 @@ metastore_db/
 spark-warehouse/
 derby.log
 
-# Data & generated outputs (regenerate with generate_dataset.py / run_pipeline.py)
+# Generated raw dataset
 data/*.csv
-output/*.csv
-output/*.json
+
+# Keep generated dashboard outputs in Git
+# DO NOT ignore output/*.csv or output/*.json
+!output/
+!output/*.csv
+!output/*.json
 
 # Keep the folders themselves under git
 !data/.gitkeep
-!output/.gitkeep
 
 # OS / Editor
 .DS_Store
